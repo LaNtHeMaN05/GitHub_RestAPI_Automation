@@ -1,0 +1,340 @@
+Request method:	POST
+Request URI:	https://api.github.com/user/repos
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=Bearer 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
+				Accept=application/vnd.github+json
+				X-GitHub-Api-Version=2022-11-28
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "name": "ApiTest07",
+    "description": "Created via API Automation test",
+    "homepage": "https://github.com",
+    "is_template": true
+}
+HTTP/1.1 401 Unauthorized
+Server: GitHub.com
+Date: Wed, 19 Apr 2023 07:12:17 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 80
+X-GitHub-Media-Type: github.v3; format=json
+X-RateLimit-Limit: 60
+X-RateLimit-Remaining: 43
+X-RateLimit-Reset: 1681891703
+X-RateLimit-Used: 17
+X-RateLimit-Resource: core
+Access-Control-Expose-Headers: ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Resource, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, X-GitHub-SSO, X-GitHub-Request-Id, Deprecation, Sunset
+Access-Control-Allow-Origin: *
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+X-Frame-Options: deny
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 0
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Content-Security-Policy: default-src 'none'
+Vary: Accept-Encoding, Accept, X-Requested-With
+X-GitHub-Request-Id: 950A:0587:374868:3C30F2:643F9451
+
+{
+    "message": "Bad credentials",
+    "documentation_url": "https://docs.github.com/rest"
+}
+Request method:	PATCH
+Request URI:	https://api.github.com/repos/MagicJohnCons/null
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=Bearer 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
+				Accept=application/vnd.github+json
+				X-GitHub-Api-Version=2022-11-28
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "name": "UpdatedApiTest07",
+    "description": "Updated via API Automation test",
+    "homepage": "https://github.com",
+    "is_template": null
+}
+HTTP/1.1 401 Unauthorized
+Server: GitHub.com
+Date: Wed, 19 Apr 2023 07:12:17 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 80
+X-GitHub-Media-Type: github.v3; format=json
+X-RateLimit-Limit: 60
+X-RateLimit-Remaining: 42
+X-RateLimit-Reset: 1681891703
+X-RateLimit-Used: 18
+X-RateLimit-Resource: core
+Access-Control-Expose-Headers: ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Resource, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, X-GitHub-SSO, X-GitHub-Request-Id, Deprecation, Sunset
+Access-Control-Allow-Origin: *
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+X-Frame-Options: deny
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 0
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Content-Security-Policy: default-src 'none'
+Vary: Accept-Encoding, Accept, X-Requested-With
+X-GitHub-Request-Id: 950B:0D48:302E8F:3516CA:643F9451
+
+{
+    "message": "Bad credentials",
+    "documentation_url": "https://docs.github.com/rest"
+}
+Request method:	PUT
+Request URI:	https://api.github.com/repos/MagicJohnCons/null/vulnerability-alerts
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=Bearer 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
+				Accept=application/vnd.github+json
+				X-GitHub-Api-Version=2022-11-28
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 401 Unauthorized
+Server: GitHub.com
+Date: Wed, 19 Apr 2023 07:12:18 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 80
+X-GitHub-Media-Type: github.v3; format=json
+X-RateLimit-Limit: 60
+X-RateLimit-Remaining: 41
+X-RateLimit-Reset: 1681891703
+X-RateLimit-Used: 19
+X-RateLimit-Resource: core
+Access-Control-Expose-Headers: ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Resource, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, X-GitHub-SSO, X-GitHub-Request-Id, Deprecation, Sunset
+Access-Control-Allow-Origin: *
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+X-Frame-Options: deny
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 0
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Content-Security-Policy: default-src 'none'
+Vary: Accept-Encoding, Accept, X-Requested-With
+X-GitHub-Request-Id: 950E:0C18:3102EA:35EB75:643F9451
+
+{
+    "message": "Bad credentials",
+    "documentation_url": "https://docs.github.com/rest"
+}
+Request method:	GET
+Request URI:	https://api.github.com/repos/MagicJohnCons/null/vulnerability-alerts
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=Bearer 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
+				Accept=application/vnd.github+json
+				X-GitHub-Api-Version=2022-11-28
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 401 Unauthorized
+Server: GitHub.com
+Date: Wed, 19 Apr 2023 07:12:18 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 80
+X-GitHub-Media-Type: github.v3; format=json
+X-RateLimit-Limit: 60
+X-RateLimit-Remaining: 40
+X-RateLimit-Reset: 1681891703
+X-RateLimit-Used: 20
+X-RateLimit-Resource: core
+Access-Control-Expose-Headers: ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Resource, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, X-GitHub-SSO, X-GitHub-Request-Id, Deprecation, Sunset
+Access-Control-Allow-Origin: *
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+X-Frame-Options: deny
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 0
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Content-Security-Policy: default-src 'none'
+Vary: Accept-Encoding, Accept, X-Requested-With
+X-GitHub-Request-Id: 950F:29CE:2F3FB9:3427A3:643F9452
+
+{
+    "message": "Bad credentials",
+    "documentation_url": "https://docs.github.com/rest"
+}
+Request method:	DELETE
+Request URI:	https://api.github.com/repos/MagicJohnCons/null/vulnerability-alerts
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=Bearer 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
+				Accept=application/vnd.github+json
+				X-GitHub-Api-Version=2022-11-28
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 401 Unauthorized
+Server: GitHub.com
+Date: Wed, 19 Apr 2023 07:12:18 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 80
+X-GitHub-Media-Type: github.v3; format=json
+X-RateLimit-Limit: 60
+X-RateLimit-Remaining: 39
+X-RateLimit-Reset: 1681891703
+X-RateLimit-Used: 21
+X-RateLimit-Resource: core
+Access-Control-Expose-Headers: ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Resource, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, X-GitHub-SSO, X-GitHub-Request-Id, Deprecation, Sunset
+Access-Control-Allow-Origin: *
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+X-Frame-Options: deny
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 0
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Content-Security-Policy: default-src 'none'
+Vary: Accept-Encoding, Accept, X-Requested-With
+X-GitHub-Request-Id: 9511:2902:2E282B:3310A5:643F9452
+
+{
+    "message": "Bad credentials",
+    "documentation_url": "https://docs.github.com/rest"
+}
+Request method:	DELETE
+Request URI:	https://api.github.com/repos/MagicJohnCons/null
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=Bearer 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
+				Accept=application/vnd.github+json
+				X-GitHub-Api-Version=2022-11-28
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 401 Unauthorized
+Server: GitHub.com
+Date: Wed, 19 Apr 2023 07:12:18 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 80
+X-GitHub-Media-Type: github.v3; format=json
+X-RateLimit-Limit: 60
+X-RateLimit-Remaining: 38
+X-RateLimit-Reset: 1681891703
+X-RateLimit-Used: 22
+X-RateLimit-Resource: core
+Access-Control-Expose-Headers: ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Resource, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, X-GitHub-SSO, X-GitHub-Request-Id, Deprecation, Sunset
+Access-Control-Allow-Origin: *
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+X-Frame-Options: deny
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 0
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Content-Security-Policy: default-src 'none'
+Vary: Accept-Encoding, Accept, X-Requested-With
+X-GitHub-Request-Id: 9512:33B3:32DFFD:37C7DB:643F9452
+
+{
+    "message": "Bad credentials",
+    "documentation_url": "https://docs.github.com/rest"
+}
+Request method:	GET
+Request URI:	https://api.github.com/repos/MagicJohnCons/World/topics
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=Bearer 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
+				Accept=application/vnd.github+json
+				X-GitHub-Api-Version=2022-11-28
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 401 Unauthorized
+Server: GitHub.com
+Date: Wed, 19 Apr 2023 07:12:19 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 80
+X-GitHub-Media-Type: github.v3; format=json
+X-RateLimit-Limit: 60
+X-RateLimit-Remaining: 37
+X-RateLimit-Reset: 1681891703
+X-RateLimit-Used: 23
+X-RateLimit-Resource: core
+Access-Control-Expose-Headers: ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Resource, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, X-GitHub-SSO, X-GitHub-Request-Id, Deprecation, Sunset
+Access-Control-Allow-Origin: *
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+X-Frame-Options: deny
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 0
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Content-Security-Policy: default-src 'none'
+Vary: Accept-Encoding, Accept, X-Requested-With
+X-GitHub-Request-Id: 9513:3114:340E78:38F6DC:643F9453
+
+{
+    "message": "Bad credentials",
+    "documentation_url": "https://docs.github.com/rest"
+}
+Request method:	PUT
+Request URI:	https://api.github.com/repos/MagicJohnCons/World/topics
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=Bearer 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
+				Accept=application/vnd.github+json
+				X-GitHub-Api-Version=2022-11-28
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "names": [
+        "octocat",
+        "atom",
+        "electron",
+        "api"
+    ]
+}
+HTTP/1.1 401 Unauthorized
+Server: GitHub.com
+Date: Wed, 19 Apr 2023 07:12:19 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 80
+X-GitHub-Media-Type: github.v3; format=json
+X-RateLimit-Limit: 60
+X-RateLimit-Remaining: 36
+X-RateLimit-Reset: 1681891703
+X-RateLimit-Used: 24
+X-RateLimit-Resource: core
+Access-Control-Expose-Headers: ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Resource, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, X-GitHub-SSO, X-GitHub-Request-Id, Deprecation, Sunset
+Access-Control-Allow-Origin: *
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+X-Frame-Options: deny
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 0
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Content-Security-Policy: default-src 'none'
+Vary: Accept-Encoding, Accept, X-Requested-With
+X-GitHub-Request-Id: 9515:6F56:12AD90:157305:643F9453
+
+{
+    "message": "Bad credentials",
+    "documentation_url": "https://docs.github.com/rest"
+}

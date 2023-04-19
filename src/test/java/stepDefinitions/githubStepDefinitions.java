@@ -40,7 +40,7 @@ public class githubStepDefinitions extends Utils {
 		
 		ApiRoutes ar=ApiRoutes.valueOf(ApiType);
 		
-		if (ApiType.equalsIgnoreCase("CreateReposiory")) {
+		if (ApiType.equalsIgnoreCase( "CreateReposiory")) {
 			response = request.when().post(ar.getApiRoute());
 		}
 		else if (ApiType.equalsIgnoreCase("UpdateRepository")) {
